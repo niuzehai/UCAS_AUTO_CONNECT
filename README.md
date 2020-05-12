@@ -1,4 +1,4 @@
-### 1.安装ssh和crontab
+### 1.安装crontab
 >sudo apt install cron
 
 ### 2.查看是否可以正常运行
