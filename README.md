@@ -7,7 +7,7 @@
 ### 3.编辑定时任务为每月1号重启
 >crontab -e
 
-输入下面这行代码，保存(***每月1号的8点30分以root用户重启电脑***)
+输入下面这行代码，保存(***每月1号的8点30分运行校园网登录脚本***)
 >30 8 1 * * /home/zocean/anaconda3/bin/python /home/zocean/REBOOT/ucas.py login 学号 密码
 
 ***/home/zocean/anaconda3/bin/python*** 是python的绝对路径，通过***which python***查看
