@@ -10,11 +10,11 @@
 输入下面这行代码，保存(***每月1号的8点30分以root用户重启电脑***)
 >30 8 1 * * /home/zocean/anaconda3/bin/python /home/zocean/REBOOT/ucas.py login 学号 密码
 
-***/home/zocean/anaconda3/bin/python*** 是python的绝对路径，可以通过>which python来替换
+***/home/zocean/anaconda3/bin/python*** 是python的绝对路径，通过***which python***查看
 
-***/home/zocean/REBOOT/ucas.py*** 是脚本的路径
+***/home/zocean/REBOOT/ucas.py*** 是脚本路径
 
-***学号 密码***需要替换为登录校园网的学号和密码
+***学号 密码*** 需要替换为登录校园网的学号和密码
 
 
 ### 4.重启crontab使功能生效
