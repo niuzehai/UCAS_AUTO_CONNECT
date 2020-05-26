@@ -37,7 +37,7 @@
 ### 2.登录校园网
 >python ucas.py login 学号 密码
 
-## 3.登出校园网
+### 3.登出校园网
 >python ucas.py logout
 
 # ucas.py 脚本自动连接校园网设置方法
