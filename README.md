@@ -27,8 +27,18 @@
 
 >sudo teamviewer --daemon restart
 
-
 # ucas.py 脚本使用方法
+
+### 1.查看是否可以正常运行
+>python ucas.py status
+
+### 2.登录校园网
+>python ucas.py login 学号 密码
+
+## 3.登出校园网
+>python ucas.py logout
+
+# ucas.py 脚本自动连接校园网设置方法
 ### 1.安装crontab
 >sudo apt install cron
 
