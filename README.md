@@ -2,6 +2,7 @@
 >hostname -I
 
 ***前面是ipv4地址，后面是ipv6地址***
+***可以通过手机热点使用ipv6网络***
 
 # teamviewer ssh安装及操作
 
