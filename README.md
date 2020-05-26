@@ -1,6 +1,7 @@
 # 查看ipv6地址
 >hostname -I
-前面是ipv4地址，后面是ipv6地址
+
+***前面是ipv4地址，后面是ipv6地址***
 
 # teamviewer ssh安装及操作
 
