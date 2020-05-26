@@ -7,17 +7,24 @@
 
 ### 下载teamviewer
 >wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+
 ### 安装teamviewer
 >sudo dpkg -i teamviewer_amd64.deb
+
 ### 启动teamviewer
 >sudo teamviewer --daemon start
+
 ### 设置密码
 >sudo teamviewer passwd YourNewPasswd
+
 ### 查看id
 >teamviewer info
+
 ### 停止/启动/重启teamviewer
 >sudo teamviewer --daemon stop
+
 >sudo teamviewer --daemon start
+
 >sudo teamviewer --daemon restart
 
 
